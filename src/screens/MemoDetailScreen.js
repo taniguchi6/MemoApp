@@ -23,7 +23,7 @@ class MemoDetailScreen extends React.Component {
                     </Text>
                 </View>
 
-                <CircleButton color="white" style={styles.editButton}>+</CircleButton>
+                <CircleButton name="pencil" color="white" style={styles.editButton} />
             </View>
         );
     }
@@ -55,7 +55,6 @@ const styles = StyleSheet.create({
         paddingLeft: 20,
         paddingRight: 20,
         paddingBottom: 20,
-        backgroundColor: '#ddd',
         flex: 1,
     },
     editButton: {
