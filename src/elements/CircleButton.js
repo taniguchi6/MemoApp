@@ -6,6 +6,7 @@ import { createIconSet } from '@expo/vector-icons';
 const glyphMap = {
     'pencil': '\uf303',
     plus: '\uf067',
+    check: '\uf00c'
 };
 const CustomIcon = createIconSet(glyphMap, 'FontAwesome', fontAwesome);
 
